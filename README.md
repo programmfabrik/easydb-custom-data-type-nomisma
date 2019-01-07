@@ -20,5 +20,3 @@ The Plugins uses <http://ws.gbv.de/suggest/numismatics.org/> and <http://uri.gbv
 ## sources
 
 The source code of this plugin is managed in a git repository at <https://github.com/programmfabrik/easydb-custom-data-type-nomisma>. Please use [the issue tracker](https://github.com/programmfabrik/easydb-custom-data-type-nomisma/issues) for bug reports and feature requests!
-=======
-# easydb-custom-data-type-nomisma
