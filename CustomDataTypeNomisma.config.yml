@@ -1,0 +1,51 @@
+plugin:
+  name: custom-data-type-nomisma
+  version: 1.0
+  url: https://github.com/programmfabrik/easydb-custom-data-type-nomisma
+  displayname:
+    de-DE: Nomisma-Verknüpfung
+    en-US: Nomisma-Referencing
+  info:
+    de-DE: Stellt Verknüpfungen mit Datensätzen der Nomisma-Vokabulare her.
+    en-US: Provides links to the records from the Nomisma-Normdata.
+  server:
+    api-version:
+      require: 1
+  webfrontend:
+    url: custom-data-type-nomisma.js
+    l10n: l10n/
+    css: custom-data-type-nomisma.css
+custom_types:
+  nomisma:
+    mapping:
+      conceptName:
+        type: text
+      conceptURI:
+        type: text
+    config:
+      schema:
+        - name: crro
+          parameters:
+            value:
+              type: bool
+        - name: ocre
+          parameters:
+            value:
+              type: bool
+        - name: pella
+          parameters:
+            value:
+              type: bool
+        - name: aod
+          parameters:
+            value:
+              type: bool
+        - name: sco
+          parameters:
+            value:
+              type: bool
+        - name: pco
+          parameters:
+            value:
+              type: bool
+      mask:

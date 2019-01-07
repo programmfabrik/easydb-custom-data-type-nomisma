@@ -1,0 +1,46 @@
+key,de-DE,en-US,it-IT,es-ES
+custom.data.type.nomisma.name,nomisma-Verknüpfung,nomisma-Link,,
+custom.data.type.nomisma.no_hit,kein Treffer,no hit,
+custom.data.type.nomisma.edit.button|icon,edit,edit,,
+custom.data.type.nomisma.remove.button|icon,trash,trash,,
+custom.data.type.nomisma.config.option.mask.editor_style.value.inline,Eingebettet,Embedded,,
+custom.data.type.nomisma.setting.mask.editor_style,Editor-Stil,Editor-Style,,
+custom.data.type.nomisma.config.option.mask.editor_style.value.popover,Popover,Popover,,
+custom.data.type.nomisma.modal.form.url.placeholder,nomisma-Verknüpfung,nomisma-Link,,
+custom.data.type.nomisma.modal.form.text.label,Text,Text,,
+custom.data.type.nomisma.edit.modal.title|text,nomisma-Verknüpfung,nomisma-Link,,
+custom.data.type.nomisma.edit.no_valid_goobi,Keine valide goobi-Verknüpfung,No valid goobi-Link,,
+custom.data.type.nomisma.edit.no_nomisma,Keine nomisma-Verknüpfung gesetzt,No nomisma-Link set,,
+custom.data.type.nomisma.modal.form.text.count,Anzahl,Count,,
+custom.data.type.nomisma.modal.form.text.count_short,Vorschläge,Suggestions,,
+custom.data.type.nomisma.modal.form.text.searchbar,Suchbegriff eingeben,Enter searchterm,,
+custom.data.type.nomisma.modal.form.text.searchbar.placeholder,tippen ...,type ...,,
+custom.data.type.nomisma.modal.form.text.result.label,Gewählter Eintrag,Choosen entry,,
+custom.data.type.nomisma.modal.form.text.result.placeholder,noch leer,empty,,
+custom.data.type.nomisma.modal.form.text.uri.label,Zugehörige URI,Associated URI,,
+custom.data.type.nomisma.modal.form.text.uri.label.placeholder,noch leer,empty,,
+custom.data.type.nomisma.config.parameter.mask.show_infopopup.value.label,Infopopup,Infopopup,,
+custom.data.type.nomisma.config.parameter.mask.show_infopopup.loading.label,Lade Informationen,loading information,,
+custom.data.type.nomisma.config.parameter.mask.infopopup.popup.info,Informationen über den Eintrag,Informations about the entry,,
+custom.data.type.nomisma.config.parameter.mask.infopopup.popup.name,Name,Name,,
+custom.data.type.nomisma.missing.config,Fehlende Konfiguration,Missing configuration
+custom.data.type.nomisma.config.parameter.schema.crro.value.label,CRRO,CRRO
+custom.data.type.nomisma.config.parameter.schema.crro.value.label_long,CRRO (Coinage of the Roman Republic Online),CRRO (Coinage of the Roman Republic Online)
+custom.data.type.nomisma.config.parameter.schema.crro.value.checkbox,Nutzen?,Use?
+custom.data.type.nomisma.config.parameter.schema.ocre.value.label,OCRE,OCRE
+custom.data.type.nomisma.config.parameter.schema.ocre.value.label_long,OCRE (Online Coins of the Roman Empire),OCRE (Online Coins of the Roman Empire)
+custom.data.type.nomisma.config.parameter.schema.ocre.value.checkbox,Nutzen?,Use?
+custom.data.type.nomisma.config.parameter.schema.pella.value.label,PELLA,PELLA
+custom.data.type.nomisma.config.parameter.schema.pella.value.label_long,PELLA (Coinage of the kings of macedonia),PELLA (Coinage of the kings of macedonia)
+custom.data.type.nomisma.config.parameter.schema.pella.value.checkbox,Nutzen?,Use?
+custom.data.type.nomisma.config.parameter.schema.aod.value.label,AOD,AOD
+custom.data.type.nomisma.config.parameter.schema.aod.value.label_long,AOD (Art of Devastation. Medallic Art of the Great War),AOD (Art of Devastation. Medallic Art of the Great War)
+custom.data.type.nomisma.config.parameter.schema.aod.value.checkbox,Nutzen?,Use?
+custom.data.type.nomisma.config.parameter.schema.sco.value.label,SCO,SCO
+custom.data.type.nomisma.config.parameter.schema.sco.value.label_long,SCO (Seleucid Coins Online),SCO (Seleucid Coins Online)
+custom.data.type.nomisma.config.parameter.schema.sco.value.checkbox,Nutzen?,Use?
+custom.data.type.nomisma.config.parameter.schema.pco.value.label,PCO,PCO
+custom.data.type.nomisma.config.parameter.schema.pco.value.label_long,PCO (Ptolemaic Coins Online),PCO (Ptolemaic Coins Online)
+custom.data.type.nomisma.config.parameter.schema.pco.value.checkbox,Nutzen?,Use?
+custom.data.type.nomisma.modal.form.text.searchfield,Datenset,Dataset
+custom.data.type.nomisma.modal.form.popup.loadingstring,lade Informationen,loading information
