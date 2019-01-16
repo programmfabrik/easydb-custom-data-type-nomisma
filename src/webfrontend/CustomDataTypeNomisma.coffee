@@ -73,7 +73,7 @@ class CustomDataTypeNomisma extends CustomDataTypeWithCommons
 
   #######################################################################
   # handle suggestions-menu
-  __updateSuggestionsMenu: (cdata, cdata_form, searchstring, input, suggest_Menu, searchsuggest_xhr, layout) ->
+  __updateSuggestionsMenu: (cdata, cdata_form, nomisma_searchterm, input, suggest_Menu, searchsuggest_xhr, layout, opts) ->
     that = @
 
     delayMillisseconds = 200
@@ -84,7 +84,22 @@ class CustomDataTypeNomisma extends CustomDataTypeWithCommons
           nomisma_searchterm = cdata_form.getFieldsByName("searchbarInput")[0].getValue()
           nomisma_countSuggestions = cdata_form.getFieldsByName("countOfSuggestions")[0].getValue()
           nomisma_set = cdata_form.getFieldsByName("searchSetSelect")[0].getValue()
-
+        else
+          # if no form, search in first type and with default count
+          nomisma_countSuggestions = 20
+          if that.getCustomSchemaSettings().crro?.value
+            nomisma_set = 'crro'
+          else if that.getCustomSchemaSettings().ocre?.value
+            nomisma_set = 'ocre'
+          else if that.getCustomSchemaSettings().aod?.value
+            nomisma_set = 'aod'
+          else if that.getCustomSchemaSettings().sco?.value
+            nomisma_set = 'sco'
+          else if that.getCustomSchemaSettings().pella?.value
+            nomisma_set = 'pella'
+          else if that.getCustomSchemaSettings().pco?.value
+            nomisma_set = 'pco'
+      
         if nomisma_searchterm.length == 0
             return
 
@@ -151,7 +166,7 @@ class CustomDataTypeNomisma extends CustomDataTypeWithCommons
                       fulltext += ' ' + data.identifier.join(' ')
                     cdata.conceptFulltext = fulltext
                     # update the layout in form
-                    that.__updateResult(cdata, layout)
+                    that.__updateResult(cdata, layout, opts)
                     # hide suggest-menu
                     suggest_Menu.hide()
                     # close popover
@@ -204,7 +219,7 @@ class CustomDataTypeNomisma extends CustomDataTypeWithCommons
             value: 'sco'
             text: $$('custom.data.type.nomisma.config.parameter.schema.sco.value.label_long')
           )
-        searchfields.push option
+        searchOptions.push option
     if @getCustomSchemaSettings().pella?.value
         option = (
             value: 'pella'
