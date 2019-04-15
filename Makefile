@@ -10,9 +10,8 @@ INSTALL_FILES = \
 	$(WEB)/l10n/cultures.json \
 	$(WEB)/l10n/de-DE.json \
 	$(WEB)/l10n/en-US.json \
-    $(WEB)/custom-data-type-nomisma.scss \
 	$(JS) \
-    $(CSS) \
+	$(CSS) \
 	CustomDataTypeNomisma.config.yml
 
 COFFEE_FILES = easydb-library/src/commons.coffee \
