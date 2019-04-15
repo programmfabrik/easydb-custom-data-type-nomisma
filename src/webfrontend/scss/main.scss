@@ -15,6 +15,11 @@
      min-width:600px !important;
      min-height: 200px !important;
 }
+
+.commonPlugin_Popover .cdtFormWithPadding {
+  padding: 10px;
+}
+
  .commonPlugin_Input {
      max-width: 100%;
 }
@@ -30,8 +35,8 @@
 }
 
 .nomisma_imageExample {
-  max-height:100px; 
-  width: auto; 
-  border: none; 
+  max-height:100px;
+  width: auto;
+  border: none;
   border-radius: 1px;
 }
