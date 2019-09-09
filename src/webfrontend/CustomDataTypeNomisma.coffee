@@ -99,7 +99,7 @@ class CustomDataTypeNomisma extends CustomDataTypeWithCommons
             nomisma_set = 'pella'
           else if that.getCustomSchemaSettings().pco?.value
             nomisma_set = 'pco'
-      
+
         if nomisma_searchterm.length == 0
             return
 
@@ -311,7 +311,7 @@ class CustomDataTypeNomisma extends CustomDataTypeWithCommons
       left:
         content:
           new CUI.Label
-            centered: true
+            centered: false
             text: cdata.conceptName
       center:
         content:
