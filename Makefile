@@ -4,7 +4,6 @@ L10N_FILES = easydb-library/src/commons.l10n.csv \
     l10n/$(PLUGIN_NAME).csv
 L10N_GOOGLE_KEY =
 L10N_GOOGLE_GID =
-L10N2JSON = python2 easydb-library/tools/l10n2json.py
 
 INSTALL_FILES = \
 	$(WEB)/l10n/cultures.json \
