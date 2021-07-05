@@ -1,6 +1,7 @@
 *.coffee.js
 .sass-cache
 build
+build-info.json
 build-stamp-*
 *~
 .\#*

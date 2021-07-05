@@ -22,7 +22,7 @@ all: build
 
 include easydb-library/tools/base-plugins.make
 
-build: code
+build: code buildinfojson
 		   mkdir -p build/webfrontend/css
 			 cat $(CSS_FILE) >> build/webfrontend/custom-data-type-nomisma.css
 
