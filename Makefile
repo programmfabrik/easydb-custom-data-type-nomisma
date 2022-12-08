@@ -3,8 +3,6 @@ PLUGIN_PATH = easydb-custom-data-type-nomisma
 
 L10N_FILES = easydb-library/src/commons.l10n.csv \
     l10n/$(PLUGIN_NAME).csv
-L10N_GOOGLE_KEY =
-L10N_GOOGLE_GID =
 
 INSTALL_FILES = \
 	$(WEB)/l10n/cultures.json \
